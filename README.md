@@ -8,7 +8,7 @@ To be able to build you install this package
 
 sudo pacman -S archiso
 
-To do : next - change name Arch Linux to Carli
+To do : next - change name Arch Linux to Tranquillity
 
 Do check out the archiso.readme.
 
