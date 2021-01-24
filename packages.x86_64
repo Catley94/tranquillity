@@ -114,7 +114,7 @@ partitionmanager
 
 #Calamares
 calamares
-carli-calamares-config
+tranquillity-calamares-config
 #carli-system-installation
 grub
 os-prober
