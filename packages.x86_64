@@ -104,13 +104,16 @@ xfsprogs
 xl2tpd
 zsh
 
-#Carli
+#Tranquillity
 plasma-meta
 kde-applications-meta
 packagekit-qt5
 sddm
 bash-completion
 partitionmanager
+ckbcomp
+surfn-icons-git
+surfn-mint-y-icons-git
 
 #Calamares
 calamares
@@ -125,7 +128,7 @@ os-prober
 #Software
 git
 base-devel
-yay-bin
+#yay-bin
 neofetch
 dolphin
 konsole

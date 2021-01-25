@@ -29,12 +29,13 @@ systemctl enable pacman-init.service choose-mirror.service systemd-networkd.serv
 systemctl set-default graphical.target
 systemctl enable sddm.service
 
-pacman-key --init
-pacman-key --populate archlinux
-pacman-key --lsign-key 7B01FA17CA801345
+#pacman-key --init
+#pacman-key --populate archlinux
+#pacman-key --lsign-key 7B01FA17CA801345
+#pacman-key --lsign-key 8VOqwnM9q6QE
 
-groupscarli="adm,audio,disk,floppy,log,network,optical,rfkill,storage,video,wheel,sys"
-useradd -m -g users -G $groupscarli -s /bin/bash liveuser
+groupstranquillity="adm,audio,disk,floppy,log,network,optical,rfkill,storage,video,wheel,sys"
+useradd -m -g users -G $groupstranquillity -s /bin/bash liveuser
 passwd -d liveuser
 
 #set permissions
