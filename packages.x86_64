@@ -5,6 +5,7 @@ amd-ucode
 arch-install-scripts
 b43-fwcutter
 base
+base-devel
 bind-tools
 brltty
 broadcom-wl
@@ -104,32 +105,35 @@ xfsprogs
 xl2tpd
 zsh
 
-#Tranquillity
-plasma-meta
-kde-applications-meta
-packagekit-qt5
-sddm
+#DE WM DM
+# sddm
+# plasma-meta
+# packagekit-qt5
+# kde-applications-meta
+# partitionmanager
+# ktorrent
+# kdeconnect
+xorg-server
+xorg-apps
+xorg-xinit
+lightdm
+lightdm-gtk-greeter
+cinnamon
+nemo-fileroller
+gnome-terminal
+
+
+#custom software
 bash-completion
-partitionmanager
+calamares
+networkmanager
+tranquillity-calamares-config
+grub
+os-prober
+neofetch
 ckbcomp
 surfn-icons-git
 surfn-mint-y-icons-git
-
-#Calamares
-calamares
-tranquillity-calamares-config
-#carli-system-installation
-grub
-os-prober
-
-#carli
-#carli-keyring
-
-#Software
-git
-base-devel
-#yay-bin
-neofetch
-dolphin
-konsole
-kate
+wget
+meld
+firefox
