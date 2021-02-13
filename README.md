@@ -1,15 +1,11 @@
 # Tranquillity
 
-Start building your own carli version with 
+Requirements of building:
 
-sudo ./build.sh -v
+archiso version 50.1
 
-To be able to build you install this package
+What to build your own version? Fork it and follow the below command
 
-sudo pacman -S archiso
-
-To do : next - change name Arch Linux to Tranquillity
-
-Do check out the archiso.readme.
+./build.sh
 
 Use the correct version of archiso.
