@@ -6,7 +6,7 @@ set -e -u
 
 # Warning: customize_airootfs.sh is deprecated! Support for it will be removed in a future archiso version.
 
-sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
+sed -i 's/#\(en_UK\.UTF-8\)/\1/' /etc/locale.gen
 locale-gen
 
 usermod -s /usr/bin/zsh root
@@ -17,7 +17,7 @@ passwd -d root
 
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
 systemctl set-default graphical.target
-systemctl enable lightdm.service
+systemctl enable sddm.service
 
 groupstranquillity="adm,audio,disk,floppy,log,network,optical,rfkill,storage,video,wheel,sys"
 useradd -m -g users -G $groupstranquillity -s /bin/bash liveuser

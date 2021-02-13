@@ -106,28 +106,37 @@ xl2tpd
 zsh
 
 #DE WM DM
-# sddm
-# plasma-meta
-# packagekit-qt5
-# kde-applications-meta
-# partitionmanager
-# ktorrent
-# kdeconnect
 xorg-server
 xorg-apps
 xorg-xinit
-lightdm
-lightdm-gtk-greeter
+sddm
+
+##plasma de
+#plasma-meta
+#packagekit-qt5
+#kde-applications-meta
+#partitionmanager
+#ktorrent
+#kdeconnect
+
+#lightdm
+#lightdm-gtk-greeter
+
+##cinnamon de
 cinnamon
 nemo-fileroller
 gnome-terminal
+
+##lxde
+
+##lxqt
 
 
 #custom software
 bash-completion
 calamares
-networkmanager
 tranquillity-calamares-config
+networkmanager
 grub
 os-prober
 neofetch
@@ -137,3 +146,4 @@ surfn-mint-y-icons-git
 wget
 meld
 firefox
+variety
